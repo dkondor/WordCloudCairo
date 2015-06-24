@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WordCloud xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!-- width and height of the generated picture -->
+  <ActualWidth>600</ActualWidth>
+  <ActualHeight>600</ActualHeight>
+<!-- font to use (must be a "system" font) -->
+  <fontname>CMU Sans Serif Demi Condensed</fontname>
+<!-- try to make to largest word this wide compared to the width; if max font size is given below, then it is ignored -->
+  <LargestSizeWidthProportion>0.7</LargestSizeWidthProportion>
+<!-- minimum font size to use, this could depend on the image size -->
+  <MinFontSize>22</MinFontSize>
+<!-- maximum font size to use; if zero, then this is determined from the image size -->
+  <MaxFontSize>0</MaxFontSize>
+<!-- this ratio of words will be drawn rotated by 90° -->
+  <vratio>0.4</vratio>
+<!-- color to use, must be #rrggbb hex -->
+  <colorstring>#0000b0</colorstring>
+<!-- alternate method of setting the font sizes -->
+<!-- if CoverRatio > 0, then LargestSizeWidthProportion, MinFontSize and MaxFontSize -->
+<!-- above are ignored and calculated that approximately CoverRatio of the total area -->
+<!-- is covered with FontMaxRatio being the ratio between the smallest and largest font used -->
+  <CoverRatio>0</CoverRatio>
+  <FontMaxRatio>6</FontMaxRatio>
+</WordCloud>
